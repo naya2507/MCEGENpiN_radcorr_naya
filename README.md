@@ -1,5 +1,5 @@
 # MCEGENpiN_radcorr V9b
-This V9b version of the newest MC event generator for exclusive single pion electroproduction allows you to generate a massive statistics for the large invariants' scales. Relatively fast and effective procedures in conjunction with model representations make this program a convenient and reliable choice for data analysis in particle physics.
+This V9b version of the newest MC event generator for exclusive single pion electroproduction allows you to generate a massive statistics for the large invariants scales. Relatively fast and effective procedures in conjunction with model representations make this program a convenient and reliable choice for data analysis in particle physics.
 
 ## What's it all about?
 One of the biggest parts of any experiments in physics is data analysis. Hadron physics with [CLAS12 spectrometer](https://www.jlab.org/physics/hall-b/clas12) gets pretty tricky when one should deal with its efficiency. This is where programs like this generator come quite handy. Not only do they allow you to restore the original cross-section, but they also can be used as an instrument for event selection development. 
@@ -12,11 +12,11 @@ Helicity amplitudes were considered the most convenient intermediate stage of th
 <a href="https://www.codecogs.com/eqnedit.php?latex=H_{1}&space;=&space;\dfrac{1}{\sqrt{2}}\sin{\theta}\cos{\dfrac{\theta}{2}}\sum_l&space;(E_{l&plus;}&space;-&space;M_{l&plus;}&space;-&space;E_{(l&plus;1)-}&space;-&space;M_{(l&plus;1)-})[P_{l}''(\cos{\theta})&space;-&space;P_{l&plus;1}''(\cos{\theta})]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{1}&space;=&space;\dfrac{1}{\sqrt{2}}\sin{\theta}\cos{\dfrac{\theta}{2}}\sum_l&space;(E_{l&plus;}&space;-&space;M_{l&plus;}&space;-&space;E_{(l&plus;1)-}&space;-&space;M_{(l&plus;1)-})[P_{l}''(\cos{\theta})&space;-&space;P_{l&plus;1}''(\cos{\theta})]" title="H_{1} = \dfrac{1}{\sqrt{2}}\sin{\theta}\cos{\dfrac{\theta}{2}}\sum_l (E_{l+} - M_{l+} - E_{(l+1)-} - M_{(l+1)-})[P_{l}''(\cos{\theta}) - P_{l+1}''(\cos{\theta})]" /></a>
 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=H_{2}&space;=&space;\dfrac{1}{\sqrt{2}}\cos{\dfrac{\theta}{2}}\sum_l&space;((l&plus;2)E_{l&plus;}&space;-&space;lM_{l&plus;}&space;-&space;(l&plus;2)M_{(l&plus;1)-}&space;&plus;&space;lE_{(l&plus;1)-})[P_{l}'&space;-&space;P_{l&plus;1}']" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{2}&space;=&space;\dfrac{1}{\sqrt{2}}\cos{\dfrac{\theta}{2}}\sum_l&space;((l&plus;2)E_{l&plus;}&space;-&space;lM_{l&plus;}&space;-&space;(l&plus;2)M_{(l&plus;1)-}&space;&plus;&space;lE_{(l&plus;1)-})[P_{l}'&space;-&space;P_{l&plus;1}']" title="H_{2} = \dfrac{1}{\sqrt{2}}\cos{\dfrac{\theta}{2}}\sum_l ((l+2)E_{l+} - lM_{l+} - (l+2)M_{(l+1)-} + lE_{(l+1)-})[P_{l}' - P_{l+1}']" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=H_{2}&space;=&space;\dfrac{1}{\sqrt{2}}\cos{\dfrac{\theta}{2}}\sum_l&space;((l&plus;2)E_{l&plus;}&space;&plus;&space;lM_{l&plus;}&space;-&space;(l&plus;2)M_{(l&plus;1)-}&space;&plus;&space;lE_{(l&plus;1)-})[P_{l}'&space;-&space;P_{l&plus;1}']" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{2}&space;=&space;\dfrac{1}{\sqrt{2}}\cos{\dfrac{\theta}{2}}\sum_l&space;((l&plus;2)E_{l&plus;}&space;&plus;&space;lM_{l&plus;}&space;-&space;(l&plus;2)M_{(l&plus;1)-}&space;&plus;&space;lE_{(l&plus;1)-})[P_{l}'&space;-&space;P_{l&plus;1}']" title="H_{2} = \dfrac{1}{\sqrt{2}}\cos{\dfrac{\theta}{2}}\sum_l ((l+2)E_{l+} + lM_{l+} - (l+2)M_{(l+1)-} + lE_{(l+1)-})[P_{l}' - P_{l+1}']" /></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=H_{3}&space;=&space;\dfrac{1}{\sqrt{2}}\sin{\theta}\sin{\dfrac{\theta}{2}}\sum_l&space;(E_{l&plus;}&space;-&space;M_{l&plus;}&space;&plus;&space;E_{(l&plus;1)-}&space;&plus;&space;M_{(l&plus;1)-})[P_{l}''(\cos{\theta})&space;&plus;&space;P_{l&plus;1}''(\cos{\theta})]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{3}&space;=&space;\dfrac{1}{\sqrt{2}}\sin{\theta}\sin{\dfrac{\theta}{2}}\sum_l&space;(E_{l&plus;}&space;-&space;M_{l&plus;}&space;&plus;&space;E_{(l&plus;1)-}&space;&plus;&space;M_{(l&plus;1)-})[P_{l}''(\cos{\theta})&space;&plus;&space;P_{l&plus;1}''(\cos{\theta})]" title="H_{3} = \dfrac{1}{\sqrt{2}}\sin{\theta}\sin{\dfrac{\theta}{2}}\sum_l (E_{l+} - M_{l+} + E_{(l+1)-} + M_{(l+1)-})[P_{l}''(\cos{\theta}) + P_{l+1}''(\cos{\theta})]" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=H_{4}&space;=&space;\dfrac{1}{\sqrt{2}}\sin{\dfrac{\theta}{2}}\sum_l&space;((l&plus;2)E_{l&plus;}&space;-&space;lM_{l&plus;}&space;&plus;&space;(l&plus;2)M_{(l&plus;1)-}&space;-&space;lE_{(l&plus;1)-})[P_{l}'&space;&plus;&space;P_{l&plus;1}']" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{4}&space;=&space;\dfrac{1}{\sqrt{2}}\sin{\dfrac{\theta}{2}}\sum_l&space;((l&plus;2)E_{l&plus;}&space;-&space;lM_{l&plus;}&space;&plus;&space;(l&plus;2)M_{(l&plus;1)-}&space;-&space;lE_{(l&plus;1)-})[P_{l}'&space;&plus;&space;P_{l&plus;1}']" title="H_{4} = \dfrac{1}{\sqrt{2}}\sin{\dfrac{\theta}{2}}\sum_l ((l+2)E_{l+} - lM_{l+} + (l+2)M_{(l+1)-} - lE_{(l+1)-})[P_{l}' + P_{l+1}']" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=H_{4}&space;=&space;\dfrac{1}{\sqrt{2}}\sin{\dfrac{\theta}{2}}\sum_l&space;((l&plus;2)E_{l&plus;}&space;&plus;&space;lM_{l&plus;}&space;&plus;&space;(l&plus;2)M_{(l&plus;1)-}&space;-&space;lE_{(l&plus;1)-})[P_{l}'&space;&plus;&space;P_{l&plus;1}']" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{4}&space;=&space;\dfrac{1}{\sqrt{2}}\sin{\dfrac{\theta}{2}}\sum_l&space;((l&plus;2)E_{l&plus;}&space;&plus;&space;lM_{l&plus;}&space;&plus;&space;(l&plus;2)M_{(l&plus;1)-}&space;-&space;lE_{(l&plus;1)-})[P_{l}'&space;&plus;&space;P_{l&plus;1}']" title="H_{4} = \dfrac{1}{\sqrt{2}}\sin{\dfrac{\theta}{2}}\sum_l ((l+2)E_{l+} + lM_{l+} + (l+2)M_{(l+1)-} - lE_{(l+1)-})[P_{l}' + P_{l+1}']" /></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=H_{5}&space;=\dfrac{Q}{|k|}&space;\cos(\dfrac{\theta}{2})\sum_l&space;(l&plus;1)(S_{l&plus;}&space;&plus;&space;S_{(l&plus;1)-})[P_{l}'(\cos(\theta))&space;-&space;P_{l&plus;1}'(\cos(\theta))]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{5}&space;=\dfrac{Q}{|k|}&space;\cos(\dfrac{\theta}{2})\sum_l&space;(l&plus;1)(S_{l&plus;}&space;&plus;&space;S_{(l&plus;1)-})[P_{l}'(\cos(\theta))&space;-&space;P_{l&plus;1}'(\cos(\theta))]" title="H_{5} =\dfrac{Q}{|k|} \cos(\dfrac{\theta}{2})\sum_l (l+1)(S_{l+} + S_{(l+1)-})[P_{l}'(\cos(\theta)) - P_{l+1}'(\cos(\theta))]" /></a>
 
@@ -66,7 +66,7 @@ As a result, for each <a href="https://www.codecogs.com/eqnedit.php?latex=\{W,&s
 ### local machine
 
 1. Install [Root Cern](https://root.cern.ch/building-root)
-2. git clone of the EG: git clone https://github.com/Maksaska/MCEGENpiN_radcorr
+2. git clone of the EG: git clone https://github.com/naya2507/MCEGENpiN_radcorr_naya
 3. Type command: chmod +x compile_gen
 4. Set the path to data:
   
@@ -80,11 +80,12 @@ As a result, for each <a href="https://www.codecogs.com/eqnedit.php?latex=\{W,&s
   
 ### JLab machine
   
-1. git clone of the EG: git clone https://github.com/Maksaska/MCEGENpiN_radcorr
-2. source setup.sh
-3. Type command: chmod +x compile_gen
-4. Compile with "compile_gen",i.e. ./compile_gen
-5. Start the compiled file with ./MCEGENpiN_radcorr command
+1. git clone of the EG: git clone https://github.com/naya2507/MCEGENpiN_radcorr_naya
+2. Type command: module use /cvmfs/oasis.opensciencegrid.org/jlab/hallb/clas12/sw/modulefiles
+3. Type command: module load clas12
+4. Type command: chmod +x compile_gen
+5. Compile with "compile_gen",i.e. ./compile_gen
+6. Start the compiled file with ./MCEGENpiN_radcorr command
 
 Requirements: [Root Cern](https://root.cern/)
 
@@ -120,8 +121,8 @@ Requirements: [Root Cern](https://root.cern/)
 * if W > 2.0 we assume W = 2.0 (**RC integrals too**)
   
 #### Event sampling proceedure:
-  Metropolis-Hastings MCMC algorithm with normal distribution as proposal density (or jumping distribution) - <i>default setting</i>
-  Uniform distributions in kinematically admissible phase space. Cross sections are recorded for each event as weights. To use this configuration add --weight to ./MCEGENpiN_radcorr
+*  Metropolis-Hastings MCMC algorithm with normal distribution as proposal density (or jumping distribution) - <i>default setting</i>.
+*  Uniform distributions in kinematically admissible phase space. Cross sections are recorded for each event as weights. To use this configuration add --weight to ./MCEGENpiN_radcorr
 
 #### Default settings:
 * --beam_energy = 6.5 <a href="https://www.codecogs.com/eqnedit.php?latex=GeV" target="_blank"><img src="https://latex.codecogs.com/gif.latex?GeV" title="GeV" /></a>
@@ -138,19 +139,14 @@ Requirements: [Root Cern](https://root.cern/)
 * --seed = time(NULL)
 * -h = 0
 
-## Some histograms for default options with --weight
+## Some histograms for default options with --RC --weight
 
-<img src="/img/W.jpeg" alt="W"/>
-<img src="/img/Q2.jpeg" alt="Q2"/>
-<img src="/img/W_Q2.jpeg" alt="W_Q2"/>
-<img src="/img/phi_cos.jpeg" alt="phi_cos"/>
-<img src="/img/Erad.jpeg" alt="Erad"/>
-<img src="/img/cos_rad.jpeg" alt="cos_rad"/>
-<img src="/img/MM_N.jpeg" alt="MM_N"/>
-<img src="/img/MM_pi.jpeg" alt="MM_pi"/>
-<img src="/img/Q2_cos.jpeg" alt="Q2_cos"/>
-<img src="/img/Q2_phi.jpeg" alt="Q2_phi"/>
-<img src="/img/W_cos.jpeg" alt="W_cos"/>
-<img src="/img/W_phi.jpeg" alt="W_phi"/>
+<img src="/img/W.jpg" alt="W"/>
+<img src="/img/Q2.jpg" alt="Q2"/>
+<img src="/img/costheta.jpg" alt="costheta"/>
+<img src="/img/phi.jpg" alt="phi"/>
+<img src="/img/MM2.jpg" alt="MM2"/>
+<img src="/img/erad.jpg" alt="erad"/>
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=maksaska&label=Profile%20views&color=0e75b6&style=flat" alt="maksaska" /> <img src="https://img.shields.io/badge/MSU-SINP-blue" /> <img src="https://img.shields.io/badge/JLab-red" /> </p>
